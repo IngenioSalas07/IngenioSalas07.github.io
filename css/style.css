@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(27deg, #D2DAFF 50%, #B1B2FF 50%);
+
+}
+
+
+.form-body{
+    width: 400px;
+    min-width: 300px;
+    border: 1px solid  #fff;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+    display: block;
+    box-shadow: 2px 2px rgb(213, 213, 213), -0.1rem 0 0.1em rgb(195, 195, 195); 
+}
+.form-body img{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+}
+.form-body .text{
+    font-size: 24px;
+    font-weight: 600; /* Grosor de la letra */
+    color: #5870a3;
+    margin: 10px;
+    
+
+}
+.form-body input[type="number"]{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 55%;
+    padding-left: 10px;
+    color: white;
+    border: 2px solid #D2DAFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:  #ec86c6;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+
+}
+
+.form-body input[name="n2"]{
+
+    margin-top: 10px;
+
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .596);
+    text-align: center;
+}
+
+.rpt{
+    background-color: #B1B2FF;
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid white;
+
+
+    
+    
+}
+
+/* corregir llamado de html */
+#n1:hover{
+        color: #D2DAFF;
+        transition: .5s;
+        border: 1px solid black;
+        text-align: center;
+    }
+    
+
+#n2:hover{
+    color: #D2DAFF;
+    transition: .5s;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 55%;
+    background: #B1B2FF;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    color: white;
+
+}
+#button:hover{
+    transition: .5s;
+    border: 2px solid #B1B2FF;
+    color:#ec86c6 ;
+    background: linear-gradient(black #fff);
+
+
+}
+
+
